@@ -49,6 +49,5 @@ image-gallery/
     └── abstract_fluid.jpg
 ```
 
-## License
-
-MIT License.
+## Author
+Aryan chaudhary.
