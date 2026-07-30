@@ -1,53 +1,53 @@
-# Lumina - Interactive Image Gallery
+# CodeAlpha Image Gallery
 
-Lumina is a responsive, client-side web application built with HTML, CSS, and vanilla JavaScript. It features dynamic grid and masonry layouts, live search indexing, category filtering, style filters, and a lightbox viewer with keyboard and touch navigation.
+## Project Description
+
+This project is a responsive Image Gallery developed as part of the CodeAlpha Frontend Development Internship. It is built using HTML, CSS, and JavaScript. The gallery allows users to browse images, view them in a lightbox, navigate between images using Previous and Next buttons, and enjoy smooth animations and hover effects.
 
 ## Features
 
-- High-Contrast Theme: Designed with a dark black, green, orange, and white color palette, including a dark/light mode toggle.
-- Dual Layout Modes: Switch between standard uniform grid view and masonry column view.
-- Instant Search & Filter: Filter photographs in real time by titles, locations, descriptions, or tags.
-- Category Filtering: Filter photos by category (Nature, Architecture, Abstract, Wildlife, Portraits) with live item count badges.
-- Visual Style FX: Apply CSS visual filters directly to images (Original, Black & White, Sepia, Warm Glow, Cyberpunk, Vibrant).
-- Favorites System: Save favorite photographs persistently using browser localStorage.
-- Interactive Lightbox:
-  - Fullscreen view with fast image rendering.
-  - Controls: Next/Previous buttons, scrollable thumbnail strip, keyboard controls (Left/Right arrows, Escape, Spacebar), and mobile touch swipe gestures.
-  - Autoplay Slideshow: Automatic photo slideshow with a linear progress bar.
-  - Zoom & Inspection: Zoom in and out up to 300%.
-  - EXIF Metadata Panel: View camera model, lens, exposure, ISO, dimensions, location, and tag chips.
-  - Photo Download: Direct image download link.
+- Responsive image gallery layout
+- Lightbox image preview
+- Previous and Next navigation
+- Hover effects with smooth transitions
+- Responsive design for desktop, tablet, and mobile devices
+- Image filters/categories
 
-## Tech Stack
+## Technologies Used
 
-- HTML5: Semantic structure and accessible modal controls.
-- CSS3: Custom CSS properties, CSS Grid, Masonry column layout, backdrop blur, and media queries.
-- JavaScript (ES6+): Client-side state management, search logic, keyboard navigation, and touch event handling.
-- Dependencies: None (Vanilla JS implementation).
+- HTML5
+- CSS3
+- JavaScript
 
-## Usage
-
-1. Download or clone this repository.
-2. Open index.html directly in any web browser.
-
-No build step or local server is required.
-
-## File Structure
+## Project Structure
 
 ```text
-image-gallery/
-├── index.html       
-├── styles.css       
-├── app.js           
-├── README.md        
-└── images/          
-    ├── nature_mountain.jpg
-    ├── nature_forest.jpg
-    ├── architecture_skyscraper.jpg
-    ├── architecture_bridge.jpg
+CodeAlpha_ImageGallery/
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+└── images/
+    ├── abstract_fluid.jpg
     ├── abstract_neon.jpg
-    └── abstract_fluid.jpg
+    ├── architecture_bridge.jpg
+    ├── architecture_skyscraper.jpg
+    ├── nature_forest.jpg
+    ├── nature_mountain.jpg
 ```
 
+## How to Run
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. Open `index.html` in any web browser.
+4. Click any image to open it in the lightbox.
+5. Use the Previous and Next buttons to browse the images.
+
 ## Author
-Aryan chaudhary.
+
+Aryan Chaudhary
+
+## Internship
+
+CodeAlpha Frontend Development Internship
